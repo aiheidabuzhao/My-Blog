@@ -9,12 +9,21 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+  <nav>
+    <a href="#/zh-en">EN</a>
+    <a href="#/zh-cn">中文</a>
+  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      loadSidebar:true
+      name: "WayenChen's Blog",
+      repo: 'https://github.com/aiheidabuzhao/My-Blog',
+      loadSidebar:true,
+      loadNavbar:true,
+      subMaxLevel: 2,
+      alias: {
+        '/#/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->
