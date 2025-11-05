@@ -1,5 +1,6 @@
 
 
 * [首页](/zh-cn/)
-* [指南](/zh-cn/guide.md)
 * [git指令](zh-cn/git/gitCommand.md)
+* 微服务/分布式相关
+  * [微服务权限设计问题](zh-cn/microservice/MicroservicePermissionDesign.md)
